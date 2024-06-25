@@ -1,0 +1,3 @@
+/// <reference types="cookie-parser" />
+import type { Request } from 'express';
+export declare function getIPFromReq(req: Request): string | null;
